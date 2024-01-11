@@ -1,0 +1,23 @@
+C:.
+|   manage.py
+|   tree.txt
+|   
++---oil
+|   |   asgi.py
+|   |   settings.py
+|   |   urls.py
+|   |   wsgi.py
+|   |   __init__.py
+|      
+\---soyabean
+    |   admin.py
+    |   apps.py
+    |   models.py
+    |   tests.py
+    |   urls.py
+    |   views.py
+    |   __init__.py
+    |   
+    \---migrations
+            __init__.py
+            

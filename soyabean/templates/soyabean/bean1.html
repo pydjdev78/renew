@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %} this is from bean1 {% endblock %}
+
+{% block content %} bean1 contents goes here
+	{% for il in it_list %}
+		<p>{{ il.grain }}</p>
+		<p>{{ il.date }}</p>
+		<p>{{ il.store }}</p>
+		<p>{{ il.fkey }}</p>
+	{% endfor %}
+{% endblock %}

@@ -1,1 +1,1 @@
-web: gunicorn oil.wsgi --log-file
+web: gunicorn oil.wsgi --log-file -
